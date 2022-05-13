@@ -4,3 +4,4 @@ Calculadora creada con herramientas de front-end, deberia funcionar sin problema
 
 ## Integrantes - GitHUB Link
 Cristobal Pulgar - https://github.com/CristobalNPE
+Natalia Ponce - https://github.com/Natalia1428
