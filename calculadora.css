@@ -1,66 +1,83 @@
-.mybutton {
-    padding: .2em .6em;
-    margin: .2em;
-    border-radius: 5px;
-    color: #fff;
-    border: none;
+/* Estilos personalizados para botones de la calculadora */
 
-    font-size: 2em;
-    box-sizing: border-box;
-    opacity: 0.7;
+.mybutton {
+  padding: .2em .6em;
+  margin: .2em;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+
+  font-size: 2em;
+  box-sizing: border-box;
+  opacity: 0.7;
 }
 
 .bttn-color-blue {
-    background-color: #5b51b8dc
+  background-color: #5b51b8dc
 }
 
 .bttn-color-red {
-    background-color: #b85151dc
+  background-color: #b85151dc
 }
 
 .bttn-color-green {
-    background-color: #51b85fdc
+  background-color: #51b85fdc
 }
 
 .bttn-color-white {
-    color: rgb(29, 29, 29);
-    font-weight: bold;
+  color: rgb(29, 29, 29);
+  font-weight: bold;
 }
 
 .mybutton:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
+
+
+
+
+/* Estilo personalizado para el cuadro de texto de la calculadora */
 .calc-input {
-    padding: .2em;
-    width: 90%;
-    font-size: 2em;
-    border: none;
-    margin: 0 auto;
-    background-color: rgba(167, 164, 164, 0.486);
-    color: rgb(29, 29, 29);
-    font-weight: bolder;
-    border-radius: 5px;
-    text-align: right;
+  padding: .2em;
+  width: 90%;
+  font-size: 2em;
+  border: none;
+  margin: 0 auto;
+  background-color: rgba(167, 164, 164, 0.486);
+  color: rgb(29, 29, 29);
+  font-weight: bolder;
+  border-radius: 5px;
+  text-align: right;
 
 }
 
+
+
+
+/* Contenedor  de la calculadora */
 .calc-container {
-    width: min(90%, 23rem);
-    margin: 0 auto;
-    background-color: rgb(102, 99, 99);
-    padding: .8em;
-    border-radius: 5px;
-    box-shadow: 1px 5px 29px 10px rgba(0, 0, 0, 0.35);
+  width: min(90%, 23rem);
+  margin: 0 auto;
+  background-color: rgb(102, 99, 99);
+  padding: .8em;
+  border-radius: 5px;
+  box-shadow: 1px 5px 29px 10px rgba(0, 0, 0, 0.35);
 }
 
-.title {
-    margin-block: 1em;
-}
 
+
+
+/* Clase para modificar la altura del contenedor general la pagina y darle otro color*/
 .general-bg {
-    height: 100vh;
-    background-color: rgb(148, 144, 144);
-    ;
+  height: 100vh;
+  background-color: rgb(148, 144, 144);
+  
 }
 
+
+
+/* Modificaciones a los textos */
+.title {
+  margin-block: 1em;
+}
