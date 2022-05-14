@@ -13,7 +13,11 @@ function accion(valor) {
   if (valor == "AC") {
     cuadroResultado.value = "";
   } else if (valor == "=") {
-    cuadroResultado.value = eval(cuadroResultado.value);
+    if (cuadroResultado.value == "") {
+      cuadroResultado.value = "";
+    } else {
+      cuadroResultado.value = eval(cuadroResultado.value);
+    }
   } else if (
     !isNaN(valor) ||
     valor == "+" ||
@@ -30,6 +34,9 @@ function accion(valor) {
     if (valor == "÷") {
       valor = "/";
     }
+
     cuadroResultado.value += valor;
+  } else {
+    cuadroResultado.value = "";
   }
 }
